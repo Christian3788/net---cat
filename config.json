@@ -1,0 +1,11 @@
+{
+  "default_port": "8989",
+  "max_clients": 10,
+  "time_format": "2006-01-02 15:04:05",
+  "admin_secret": "SuperSecureAdminPass123",
+  "idle_timeout_seconds": 300,
+  "warning_threshold_seconds": 240,
+  "cert_file": "server.crt",
+  "key_file": "server.key",
+  "banned_words": ["badword1", "badword2", "spamtext"]
+}
